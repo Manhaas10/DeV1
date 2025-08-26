@@ -1,0 +1,13 @@
+Machine learning is a subset of artificial intelligence that allows systems to learn and improve from experience without being explicitly programmed.
+
+Supervised learning involves training a model on a labeled dataset. Common algorithms include linear regression, logistic regression, and support vector machines.
+
+Unsupervised learning finds patterns in data without labels. Examples include k-means clustering and principal component analysis.
+
+In Python, a function is defined using the def keyword. For example:
+def add(a, b):
+    return a + b
+
+Recursion is a technique where a function calls itself. A common example is calculating factorial.
+
+HTTP is a stateless protocol used for web communication. HTTP status codes include 200 (OK), 404 (Not Found), and 500 (Server Error).

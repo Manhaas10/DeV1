@@ -1,0 +1,4 @@
+/backend/.env
+/backend/venv
+/backend/faiss_index
+/backend/__pycache__
