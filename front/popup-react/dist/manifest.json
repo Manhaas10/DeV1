@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "StudyCopilot",
+  "version": "1.0",
+  "description": "AI-powered text assistant using Gemini and LangChain RAG",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["<all_urls>"],
+
+  "action": {
+    "default_title": "StudyCopilot"
+  },
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["assets/content-D9Y1MqgR.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
